@@ -1,0 +1,15 @@
+[package]
+name = "utopia-openapi"
+description = "OpenAPI 2.0, 3.0 and 3.1 documents read into one version-independent, immutable model."
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+license = "BSD-3-Clause"
+
+[dependencies]
+indexmap = "2"
+php-std = { version = "0.1.0", git = "https://github.com/utopia-rs/php-std" }
+thiserror = "2"
+
+[package.metadata.utopia]
+php-sync = "809d2819d7da00d8b2f486e3bcb4c98a5265e950"
